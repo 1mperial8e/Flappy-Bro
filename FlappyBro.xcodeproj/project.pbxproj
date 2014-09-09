@@ -10,17 +10,32 @@
 		84051A9E19ADEF6500863B8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84051A9D19ADEF6500863B8E /* Foundation.framework */; };
 		84051AA019ADEF6500863B8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84051A9F19ADEF6500863B8E /* CoreGraphics.framework */; };
 		84051AA219ADEF6500863B8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84051AA119ADEF6500863B8E /* UIKit.framework */; };
-		84051AA819ADEF6500863B8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84051AA619ADEF6500863B8E /* InfoPlist.strings */; };
-		84051AAA19ADEF6500863B8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84051AA919ADEF6500863B8E /* main.m */; };
-		84051AAE19ADEF6500863B8E /* FBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84051AAD19ADEF6500863B8E /* FBAppDelegate.m */; };
 		84051AB119ADEF6500863B8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84051AAF19ADEF6500863B8E /* Main.storyboard */; };
-		84051AB419ADEF6500863B8E /* FBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84051AB319ADEF6500863B8E /* FBViewController.m */; };
 		84051AB619ADEF6500863B8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84051AB519ADEF6500863B8E /* Images.xcassets */; };
 		84051ABD19ADEF6500863B8E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84051ABC19ADEF6500863B8E /* XCTest.framework */; };
 		84051ABE19ADEF6500863B8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84051A9D19ADEF6500863B8E /* Foundation.framework */; };
 		84051ABF19ADEF6500863B8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84051AA119ADEF6500863B8E /* UIKit.framework */; };
 		84051AC719ADEF6500863B8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84051AC519ADEF6500863B8E /* InfoPlist.strings */; };
 		84051AC919ADEF6500863B8E /* FlappyBroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84051AC819ADEF6500863B8E /* FlappyBroTests.m */; };
+		84051AE319ADF0E200863B8E /* FBGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84051AD919ADF0E200863B8E /* FBGameViewController.m */; };
+		84051AE419ADF0E200863B8E /* FBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84051ADD19ADF0E200863B8E /* FBAppDelegate.m */; };
+		84051AE719ADF0E200863B8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84051AE219ADF0E200863B8E /* main.m */; };
+		84163E3E19BB886600E38CE6 /* policeCar.png in Resources */ = {isa = PBXBuildFile; fileRef = 84163E3D19BB886600E38CE6 /* policeCar.png */; };
+		84163E4419BCBC8100E38CE6 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 84163E4319BCBC8100E38CE6 /* star.png */; };
+		844FDF2B19B0A4C000247C62 /* FBSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 844FDF2A19B0A4C000247C62 /* FBSoundManager.m */; };
+		846604EB19B0B63400C7E3E2 /* gameMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 846604EA19B0B63400C7E3E2 /* gameMusic.mp3 */; };
+		846604F219B0BCD100C7E3E2 /* Sound off.png in Resources */ = {isa = PBXBuildFile; fileRef = 846604F019B0BCD100C7E3E2 /* Sound off.png */; };
+		846604F319B0BCD100C7E3E2 /* Sound on.png in Resources */ = {isa = PBXBuildFile; fileRef = 846604F119B0BCD100C7E3E2 /* Sound on.png */; };
+		8466653919B67A3600DC0B8D /* Policeman.png in Resources */ = {isa = PBXBuildFile; fileRef = 8466653819B67A3600DC0B8D /* Policeman.png */; };
+		8486641919BD02A500B0E391 /* Prisma.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8486641819BD02A500B0E391 /* Prisma.ttf */; };
+		849FEAB119B478BC000DFA1E /* Sergeant.png in Resources */ = {isa = PBXBuildFile; fileRef = 849FEAB019B478BC000DFA1E /* Sergeant.png */; };
+		849FEAB419B4852D000DFA1E /* bottomStick.png in Resources */ = {isa = PBXBuildFile; fileRef = 849FEAB219B4852D000DFA1E /* bottomStick.png */; };
+		849FEAB519B4852D000DFA1E /* topStick.png in Resources */ = {isa = PBXBuildFile; fileRef = 849FEAB319B4852D000DFA1E /* topStick.png */; };
+		849FEAB819B4AEF8000DFA1E /* Chief of Police.png in Resources */ = {isa = PBXBuildFile; fileRef = 849FEAB619B4AEF8000DFA1E /* Chief of Police.png */; };
+		849FEAB919B4AEF8000DFA1E /* Cadet.png in Resources */ = {isa = PBXBuildFile; fileRef = 849FEAB719B4AEF8000DFA1E /* Cadet.png */; };
+		849FEABC19B4AF25000DFA1E /* Lieutenant.png in Resources */ = {isa = PBXBuildFile; fileRef = 849FEABA19B4AF25000DFA1E /* Lieutenant.png */; };
+		849FEABD19B4AF25000DFA1E /* Major.png in Resources */ = {isa = PBXBuildFile; fileRef = 849FEABB19B4AF25000DFA1E /* Major.png */; };
+		84E217B619AE8ADD00A21DFE /* FBGameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E217B519AE8ADD00A21DFE /* FBGameManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,21 +53,39 @@
 		84051A9D19ADEF6500863B8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84051A9F19ADEF6500863B8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		84051AA119ADEF6500863B8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		84051AA519ADEF6500863B8E /* FlappyBro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlappyBro-Info.plist"; sourceTree = "<group>"; };
-		84051AA719ADEF6500863B8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		84051AA919ADEF6500863B8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84051AAB19ADEF6500863B8E /* FlappyBro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlappyBro-Prefix.pch"; sourceTree = "<group>"; };
-		84051AAC19ADEF6500863B8E /* FBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAppDelegate.h; sourceTree = "<group>"; };
-		84051AAD19ADEF6500863B8E /* FBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBAppDelegate.m; sourceTree = "<group>"; };
 		84051AB019ADEF6500863B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84051AB219ADEF6500863B8E /* FBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBViewController.h; sourceTree = "<group>"; };
-		84051AB319ADEF6500863B8E /* FBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBViewController.m; sourceTree = "<group>"; };
 		84051AB519ADEF6500863B8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84051ABB19ADEF6500863B8E /* FlappyBroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyBroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84051ABC19ADEF6500863B8E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		84051AC419ADEF6500863B8E /* FlappyBroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlappyBroTests-Info.plist"; sourceTree = "<group>"; };
 		84051AC619ADEF6500863B8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84051AC819ADEF6500863B8E /* FlappyBroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlappyBroTests.m; sourceTree = "<group>"; };
+		84051AD819ADF0E200863B8E /* FBGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGameViewController.h; sourceTree = "<group>"; };
+		84051AD919ADF0E200863B8E /* FBGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGameViewController.m; sourceTree = "<group>"; };
+		84051ADC19ADF0E200863B8E /* FBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAppDelegate.h; sourceTree = "<group>"; };
+		84051ADD19ADF0E200863B8E /* FBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAppDelegate.m; sourceTree = "<group>"; };
+		84051ADF19ADF0E200863B8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84051AE019ADF0E200863B8E /* FlappyBro-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FlappyBro-Info.plist"; sourceTree = "<group>"; };
+		84051AE119ADF0E200863B8E /* FlappyBro-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FlappyBro-Prefix.pch"; sourceTree = "<group>"; };
+		84051AE219ADF0E200863B8E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84163E3D19BB886600E38CE6 /* policeCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = policeCar.png; sourceTree = "<group>"; };
+		84163E4319BCBC8100E38CE6 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		844FDF2919B0A4C000247C62 /* FBSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSoundManager.h; sourceTree = "<group>"; };
+		844FDF2A19B0A4C000247C62 /* FBSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSoundManager.m; sourceTree = "<group>"; };
+		846604EA19B0B63400C7E3E2 /* gameMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameMusic.mp3; sourceTree = "<group>"; };
+		846604F019B0BCD100C7E3E2 /* Sound off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sound off.png"; sourceTree = "<group>"; };
+		846604F119B0BCD100C7E3E2 /* Sound on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sound on.png"; sourceTree = "<group>"; };
+		8466653819B67A3600DC0B8D /* Policeman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Policeman.png; sourceTree = "<group>"; };
+		8486641819BD02A500B0E391 /* Prisma.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Prisma.ttf; sourceTree = "<group>"; };
+		849FEAB019B478BC000DFA1E /* Sergeant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sergeant.png; sourceTree = "<group>"; };
+		849FEAB219B4852D000DFA1E /* bottomStick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottomStick.png; sourceTree = "<group>"; };
+		849FEAB319B4852D000DFA1E /* topStick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topStick.png; sourceTree = "<group>"; };
+		849FEAB619B4AEF8000DFA1E /* Chief of Police.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chief of Police.png"; sourceTree = "<group>"; };
+		849FEAB719B4AEF8000DFA1E /* Cadet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cadet.png; sourceTree = "<group>"; };
+		849FEABA19B4AF25000DFA1E /* Lieutenant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lieutenant.png; sourceTree = "<group>"; };
+		849FEABB19B4AF25000DFA1E /* Major.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Major.png; sourceTree = "<group>"; };
+		84E217B419AE8ADD00A21DFE /* FBGameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBGameManager.h; sourceTree = "<group>"; };
+		84E217B519AE8ADD00A21DFE /* FBGameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBGameManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,26 +145,13 @@
 		84051AA319ADEF6500863B8E /* FlappyBro */ = {
 			isa = PBXGroup;
 			children = (
-				84051AAC19ADEF6500863B8E /* FBAppDelegate.h */,
-				84051AAD19ADEF6500863B8E /* FBAppDelegate.m */,
+				84051AE819ADF42600863B8E /* Resources */,
+				84051AD219ADF0E200863B8E /* Classes */,
+				84051ADA19ADF0E200863B8E /* Supporting Files */,
 				84051AAF19ADEF6500863B8E /* Main.storyboard */,
-				84051AB219ADEF6500863B8E /* FBViewController.h */,
-				84051AB319ADEF6500863B8E /* FBViewController.m */,
 				84051AB519ADEF6500863B8E /* Images.xcassets */,
-				84051AA419ADEF6500863B8E /* Supporting Files */,
 			);
 			path = FlappyBro;
-			sourceTree = "<group>";
-		};
-		84051AA419ADEF6500863B8E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				84051AA519ADEF6500863B8E /* FlappyBro-Info.plist */,
-				84051AA619ADEF6500863B8E /* InfoPlist.strings */,
-				84051AA919ADEF6500863B8E /* main.m */,
-				84051AAB19ADEF6500863B8E /* FlappyBro-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		84051AC219ADEF6500863B8E /* FlappyBroTests */ = {
@@ -150,6 +170,141 @@
 				84051AC519ADEF6500863B8E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84051AD219ADF0E200863B8E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84051AD319ADF0E200863B8E /* Managers */,
+				84051AD419ADF0E200863B8E /* Models */,
+				84051AD619ADF0E200863B8E /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		84051AD319ADF0E200863B8E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				844FDF2819B0A4A400247C62 /* SoundManager */,
+				84E217B319AE8AC600A21DFE /* GameManager */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		84051AD419ADF0E200863B8E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84051AD519ADF0E200863B8E /* GameModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84051AD519ADF0E200863B8E /* GameModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GameModel;
+			sourceTree = "<group>";
+		};
+		84051AD619ADF0E200863B8E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84051AD719ADF0E200863B8E /* GameViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84051AD719ADF0E200863B8E /* GameViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84051AD819ADF0E200863B8E /* FBGameViewController.h */,
+				84051AD919ADF0E200863B8E /* FBGameViewController.m */,
+			);
+			path = GameViewController;
+			sourceTree = "<group>";
+		};
+		84051ADA19ADF0E200863B8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84051ADB19ADF0E200863B8E /* AppDelegate */,
+				84051ADE19ADF0E200863B8E /* InfoPlist.strings */,
+				84051AE019ADF0E200863B8E /* FlappyBro-Info.plist */,
+				84051AE119ADF0E200863B8E /* FlappyBro-Prefix.pch */,
+				84051AE219ADF0E200863B8E /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84051ADB19ADF0E200863B8E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				84051ADC19ADF0E200863B8E /* FBAppDelegate.h */,
+				84051ADD19ADF0E200863B8E /* FBAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		84051AE819ADF42600863B8E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				846604E719B0AF4F00C7E3E2 /* Sound */,
+				84051AE919ADF42600863B8E /* Assets */,
+				84051AEA19ADF42600863B8E /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84051AE919ADF42600863B8E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				846604F019B0BCD100C7E3E2 /* Sound off.png */,
+				849FEAB219B4852D000DFA1E /* bottomStick.png */,
+				849FEAB319B4852D000DFA1E /* topStick.png */,
+				846604F119B0BCD100C7E3E2 /* Sound on.png */,
+				8466653819B67A3600DC0B8D /* Policeman.png */,
+				849FEAB619B4AEF8000DFA1E /* Chief of Police.png */,
+				849FEAB719B4AEF8000DFA1E /* Cadet.png */,
+				849FEABA19B4AF25000DFA1E /* Lieutenant.png */,
+				849FEABB19B4AF25000DFA1E /* Major.png */,
+				84163E3D19BB886600E38CE6 /* policeCar.png */,
+				849FEAB019B478BC000DFA1E /* Sergeant.png */,
+				84163E4319BCBC8100E38CE6 /* star.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		84051AEA19ADF42600863B8E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8486641819BD02A500B0E391 /* Prisma.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		844FDF2819B0A4A400247C62 /* SoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				844FDF2919B0A4C000247C62 /* FBSoundManager.h */,
+				844FDF2A19B0A4C000247C62 /* FBSoundManager.m */,
+			);
+			path = SoundManager;
+			sourceTree = "<group>";
+		};
+		846604E719B0AF4F00C7E3E2 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				846604EA19B0B63400C7E3E2 /* gameMusic.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		84E217B319AE8AC600A21DFE /* GameManager */ = {
+			isa = PBXGroup;
+			children = (
+				84E217B419AE8ADD00A21DFE /* FBGameManager.h */,
+				84E217B519AE8ADD00A21DFE /* FBGameManager.m */,
+			);
+			path = GameManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +355,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Thinkmobiles;
 				TargetAttributes = {
+					84051A9919ADEF6500863B8E = {
+						DevelopmentTeam = 6V5J5WQA79;
+					};
 					84051ABA19ADEF6500863B8E = {
 						TestTargetID = 84051A9919ADEF6500863B8E;
 					};
@@ -229,9 +387,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849FEAB819B4AEF8000DFA1E /* Chief of Police.png in Resources */,
+				849FEAB119B478BC000DFA1E /* Sergeant.png in Resources */,
+				846604F319B0BCD100C7E3E2 /* Sound on.png in Resources */,
+				849FEABD19B4AF25000DFA1E /* Major.png in Resources */,
+				849FEAB919B4AEF8000DFA1E /* Cadet.png in Resources */,
+				849FEAB519B4852D000DFA1E /* topStick.png in Resources */,
+				8466653919B67A3600DC0B8D /* Policeman.png in Resources */,
 				84051AB619ADEF6500863B8E /* Images.xcassets in Resources */,
-				84051AA819ADEF6500863B8E /* InfoPlist.strings in Resources */,
+				8486641919BD02A500B0E391 /* Prisma.ttf in Resources */,
+				849FEABC19B4AF25000DFA1E /* Lieutenant.png in Resources */,
+				84163E4419BCBC8100E38CE6 /* star.png in Resources */,
+				849FEAB419B4852D000DFA1E /* bottomStick.png in Resources */,
+				846604EB19B0B63400C7E3E2 /* gameMusic.mp3 in Resources */,
+				84163E3E19BB886600E38CE6 /* policeCar.png in Resources */,
 				84051AB119ADEF6500863B8E /* Main.storyboard in Resources */,
+				846604F219B0BCD100C7E3E2 /* Sound off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +421,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84051AAE19ADEF6500863B8E /* FBAppDelegate.m in Sources */,
-				84051AAA19ADEF6500863B8E /* main.m in Sources */,
-				84051AB419ADEF6500863B8E /* FBViewController.m in Sources */,
+				84051AE419ADF0E200863B8E /* FBAppDelegate.m in Sources */,
+				844FDF2B19B0A4C000247C62 /* FBSoundManager.m in Sources */,
+				84051AE719ADF0E200863B8E /* main.m in Sources */,
+				84051AE319ADF0E200863B8E /* FBGameViewController.m in Sources */,
+				84E217B619AE8ADD00A21DFE /* FBGameManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,14 +448,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		84051AA619ADEF6500863B8E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84051AA719ADEF6500863B8E /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		84051AAF19ADEF6500863B8E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -295,6 +460,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				84051AC619ADEF6500863B8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84051ADE19ADF0E200863B8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84051ADF19ADF0E200863B8E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -318,7 +491,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alexander Sokhanych (U5HL738569)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Alexander Sokhanych (U5HL738569)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -334,8 +508,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				INFOPLIST_FILE = "FlappyBro/Supporting Files/FlappyBro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "a08baa78-a4dc-481d-af80-73ac486378bc";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -356,7 +532,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alexander Sokhanych (U5HL738569)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Alexander Sokhanych (U5HL738569)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -366,7 +543,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				INFOPLIST_FILE = "FlappyBro/Supporting Files/FlappyBro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "a08baa78-a4dc-481d-af80-73ac486378bc";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -377,10 +556,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FlappyBro/FlappyBro-Prefix.pch";
-				INFOPLIST_FILE = "FlappyBro/FlappyBro-Info.plist";
+				GCC_PREFIX_HEADER = "FlappyBro/Supporting Files/FlappyBro-Prefix.pch";
+				INFOPLIST_FILE = "FlappyBro/Supporting Files/FlappyBro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,10 +573,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FlappyBro/FlappyBro-Prefix.pch";
-				INFOPLIST_FILE = "FlappyBro/FlappyBro-Info.plist";
+				GCC_PREFIX_HEADER = "FlappyBro/Supporting Files/FlappyBro-Prefix.pch";
+				INFOPLIST_FILE = "FlappyBro/Supporting Files/FlappyBro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -457,6 +644,7 @@
 				84051ACE19ADEF6500863B8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84051ACF19ADEF6500863B8E /* Build configuration list for PBXNativeTarget "FlappyBroTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +653,7 @@
 				84051AD119ADEF6500863B8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
